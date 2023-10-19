@@ -55,7 +55,7 @@ if [[ ! $choice =~ ^[1-2]+$ ]]; then
 fi
 
 # Define installation directories
-install_dir="/usr/share/hackingtool"
+install_dir="/usr/share/holl.ez-hacking"
 bin_dir="/usr/bin"
 
 # Check if the user chose a valid option and perform the installation steps
