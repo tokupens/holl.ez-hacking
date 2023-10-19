@@ -31,27 +31,22 @@ case $COLOR_NUM in
 esac
 
 echo -e "${COLOR}"
-echo ""
-echo " 
-echo "                /$$ /$$ /$$  ";                      
-echo "                | $$ | $$| $$  ";                      
-echo "                | $$$$$$$ /$$$$$$ | $$| $$ /$$$$$$ /$$$$$$$$ ";
-echo "                | $$__ $$ /$$__ $$| $$| $$ /$$__ $$|____ /$$/ ";
-echo "                | $$ \ $$| $$ \ $$| $$| $$ | $$$$$$$$ /$$$$/  ";
-echo "                | $$ | $$| $$ | $$| $$| $$ | $$____/ /$$__/   ";
-echo "                | $$ | $$| $$$$$$/| $$| $$ /$$| $$$$$$$ /$$$$$$$$  ";
-echo "                |__/ |__/ \______/ |__/|__/|__/ \_______/|________/  ":
-                                                    
-                                                    
-                                                    
-
-
-echo -e "${BLUE}                                    https://github.com/tokupens ${NC}"
-echo -e "${RED}                                     [!] Mau pakai tools ini harus sudah di ROOT [!]${NC}\n"
+echo ""                                                                                                             
+echo "                /$$ /$$ /$$                                                          ";                      
+echo "                | $$ | $$| $$                                                        ";                      
+echo "                | $$$$$$$ /$$$$$$ | $$| $$ /$$$$$$ /$$$$$$$$                         ";
+echo "                | $$__ $$ /$$__ $$| $$| $$ /$$__ $$|____ /$$/                        ";
+echo "                | $$ \ $$| $$ \ $$| $$| $$ | $$$$$$$$ /$$$$/                         ";
+echo "                | $$ | $$| $$ | $$| $$| $$ | $$____/ /$$__/                          ";
+echo "                | $$ | $$| $$$$$$/| $$| $$ /$$| $$$$$$$ /$$$$$$$$                    ";
+echo "                |__/ |__/ \______/ |__/|__/|__/ \_______/|________/                  ":                                                                                                    ";
+                                                                                                          
+echo -e "${BLUE}                                    https://github.com/Z4nzu/tokupens ${NC}"
+echo -e "${RED}                                     [!] anda sudah hharus root [!]${NC}\n"
 echo -e "${CYAN}              Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
-echo -e "${WHITE}              [0] Keluar "
+echo -e "${WHITE}              [0] Exit "
 
 echo -e "${COLOR}┌──($USER㉿$HOST)-[$(pwd)]"
 choice=$1
@@ -143,16 +138,16 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
 
     if [ -d $install_dir ]; then
         echo "";
-        echo -e "${GREEN}[✔] Sukses instalasi [✔]";
+        echo -e "${GREEN}[✔] Successfully Installed [✔]";
         echo "";
         echo "";
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo     "[+]                                                             [+]"
-        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (holl.ez) ✔✔✔      [+]"
+        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (hackingtool) ✔✔✔      [+]"
         echo     "[+]                                                             [+]"
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
     else
-        echo -e "${RED}[✘] Instalasi gagal !!! [✘]";
+        echo -e "${RED}[✘] Installation Failed !!! [✘]";
         exit 1
     fi
 
