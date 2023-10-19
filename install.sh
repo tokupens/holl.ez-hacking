@@ -32,22 +32,26 @@ esac
 
 echo -e "${COLOR}"
 echo ""
-echo "   ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       ";
-echo "  ███    ███     ███    ███ ███    ███   ███ ▄███▀ ███  ███▀▀▀██▄   ███    ███      ▀█████████▄ ███    ███ ███    ███ ███       ";
-echo "  ███    ███     ███    ███ ███    █▀    ███▐██▀   ███▌ ███   ███   ███    █▀          ▀███▀▀██ ███    ███ ███    ███ ███       ";
-echo " ▄███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀    ███▌ ███   ███  ▄███                 ███   ▀ ███    ███ ███    ███ ███       ";
-echo "▀▀███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ███▌ ███   ███ ▀▀███ ████▄           ███     ███    ███ ███    ███ ███       ";
-echo "  ███    ███     ███    ███ ███    █▄    ███▐██▄   ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███       ";
-echo "  ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ ";
-echo "  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ ";
-echo "                                         ▀                                                                            ▀         ";
+echo " 
+echo "                /$$ /$$ /$$  ";                      
+echo "                | $$ | $$| $$  ";                      
+echo "                | $$$$$$$ /$$$$$$ | $$| $$ /$$$$$$ /$$$$$$$$ ";
+echo "                | $$__ $$ /$$__ $$| $$| $$ /$$__ $$|____ /$$/ ";
+echo "                | $$ \ $$| $$ \ $$| $$| $$ | $$$$$$$$ /$$$$/  ";
+echo "                | $$ | $$| $$ | $$| $$| $$ | $$____/ /$$__/   ";
+echo "                | $$ | $$| $$$$$$/| $$| $$ /$$| $$$$$$$ /$$$$$$$$  ";
+echo "                |__/ |__/ \______/ |__/|__/|__/ \_______/|________/  ":
+                                                    
+                                                    
+                                                    
 
-echo -e "${BLUE}                                    https://github.com/Z4nzu/hackingtool ${NC}"
-echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
+
+echo -e "${BLUE}                                    https://github.com/tokupens ${NC}"
+echo -e "${RED}                                     [!] Mau pakai tools ini harus sudah di ROOT [!]${NC}\n"
 echo -e "${CYAN}              Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
-echo -e "${WHITE}              [0] Exit "
+echo -e "${WHITE}              [0] Keluar "
 
 echo -e "${COLOR}┌──($USER㉿$HOST)-[$(pwd)]"
 choice=$1
@@ -139,16 +143,16 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
 
     if [ -d $install_dir ]; then
         echo "";
-        echo -e "${GREEN}[✔] Successfully Installed [✔]";
+        echo -e "${GREEN}[✔] Sukses instalasi [✔]";
         echo "";
         echo "";
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo     "[+]                                                             [+]"
-        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (hackingtool) ✔✔✔      [+]"
+        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (holl.ez) ✔✔✔      [+]"
         echo     "[+]                                                             [+]"
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
     else
-        echo -e "${RED}[✘] Installation Failed !!! [✘]";
+        echo -e "${RED}[✘] Instalasi gagal !!! [✘]";
         exit 1
     fi
 
