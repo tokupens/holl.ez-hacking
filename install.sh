@@ -31,18 +31,19 @@ case $COLOR_NUM in
 esac
 
 echo -e "${COLOR}"
-echo ""                                                                                                             
-echo "                /$$ /$$ /$$                                                          ";                      
-echo "                | $$ | $$| $$                                                        ";                      
-echo "                | $$$$$$$ /$$$$$$ | $$| $$ /$$$$$$ /$$$$$$$$                         ";
-echo "                | $$__ $$ /$$__ $$| $$| $$ /$$__ $$|____ /$$/                        ";
-echo "                | $$ \ $$| $$ \ $$| $$| $$ | $$$$$$$$ /$$$$/                         ";
-echo "                | $$ | $$| $$ | $$| $$| $$ | $$____/ /$$__/                          ";
-echo "                | $$ | $$| $$$$$$/| $$| $$ /$$| $$$$$$$ /$$$$$$$$                    ";
-echo "                |__/ |__/ \______/ |__/|__/|__/ \_______/|________/                  ":                                                                                                    ";
-                                                                                                          
-echo -e "${BLUE}                                    https://github.com/Z4nzu/tokupens ${NC}"
-echo -e "${RED}                                     [!] anda sudah hharus root [!]${NC}\n"
+echo ""
+echo "   ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       ";
+echo "  ███    ███     ███    ███ ███    ███   ███ ▄███▀ ███  ███▀▀▀██▄   ███    ███      ▀█████████▄ ███    ███ ███    ███ ███       ";
+echo "  ███    ███     ███    ███ ███    █▀    ███▐██▀   ███▌ ███   ███   ███    █▀          ▀███▀▀██ ███    ███ ███    ███ ███       ";
+echo " ▄███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀    ███▌ ███   ███  ▄███                 ███   ▀ ███    ███ ███    ███ ███       ";
+echo "▀▀███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ███▌ ███   ███ ▀▀███ ████▄           ███     ███    ███ ███    ███ ███       ";
+echo "  ███    ███     ███    ███ ███    █▄    ███▐██▄   ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███       ";
+echo "  ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ ";
+echo "  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ ";
+echo "                                         ▀                                                                            ▀         ";
+
+echo -e "${BLUE}                                    https://github.com/tokupens/holl.ez-hacking ${NC}"
+echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e "${CYAN}              Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
@@ -55,7 +56,7 @@ if [[ ! $choice =~ ^[1-2]+$ ]]; then
 fi
 
 # Define installation directories
-install_dir="/usr/share/holl.ez-hacking"
+install_dir="/usr/share/hackingtool"
 bin_dir="/usr/bin"
 
 # Check if the user chose a valid option and perform the installation steps
