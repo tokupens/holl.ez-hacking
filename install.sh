@@ -43,7 +43,7 @@ echo "  ███    █▀      ███    █▀  ████████�
 echo "                                         ▀                                                                            ▀         ";
 
 echo -e "${BLUE}                                    https://github.com/tokupens/holl.ez-hacking ${NC}"
-echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
+echo -e "${RED}                                     [!] menggunakan tool ini harus sudah root [!]${NC}\n"
 echo -e "${CYAN}              Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
