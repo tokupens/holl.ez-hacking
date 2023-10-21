@@ -211,29 +211,29 @@
 ## Installation For Linux <img src="https://konpa.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="25" height="25"/></p><p align="center">
 
 
-### !! RUN HACKINGTOOL AS ROOT !! 
+### !! RUN holl.ez-hacking hanya dengan root !! 
 
 
 ## Steps are given below : 
 
 
-## Step : 1 Download hackingtool
+## Step : 1 Download holl.ez-hacking
 
     git clone https://github.com/Z4nzu/hackingtool.git
 
-## Step : 2 Give Permission to hackingtool
+## Step : 2 berikan izin kepada holl.ez-hacking
     
     chmod -R 755 hackingtool  
 
-## Step : 3 Move to hackingtool directory
+## Step : 3 pindahkan holl.ez-hacking ke penyimpanan
 
     cd hackingtool
 
-## Step : 4 Run hackingtool
+## Step : 4 jalankan holl.ez-hacking
     
     sudo bash install.sh
 
-## Step : 5 For installing tools in directory
+## Step : 5 menggunduh assets didalam penyimpanan
 
     sudo hackingtool
 
