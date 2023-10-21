@@ -223,11 +223,11 @@
 
 ## Step : 2 berikan izin kepada holl.ez-hacking
     
-    chmod -R 755 hackingtool  
+    chmod -R 755 holl.ez-hacking  
 
 ## Step : 3 pindahkan holl.ez-hacking ke penyimpanan
 
-    cd hackingtool
+    cd holl.ez-hacking
 
 ## Step : 4 jalankan holl.ez-hacking
     
@@ -235,7 +235,7 @@
 
 ## Step : 5 menggunduh assets didalam penyimpanan
 
-    sudo hackingtool
+    sudo holl.ez-hacking
 
 
 ## Use image with Docker
