@@ -219,7 +219,7 @@
 
 ## Step : 1 Download holl.ez-hacking
 
-    git clone https://github.com/Z4nzu/hackingtool.git
+    git clone https://github.com/tokupens/holl.ez-hacking.git
 
 ## Step : 2 berikan izin kepada holl.ez-hacking
     
