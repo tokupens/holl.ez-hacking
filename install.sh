@@ -56,7 +56,7 @@ if [[ ! $choice =~ ^[1-2]+$ ]]; then
 fi
 
 # Define installation directories
-install_dir="/usr/share/hackingtool"
+install_dir="/usr/share/holl.ez-hacking"
 bin_dir="/usr/bin"
 
 # Check if the user chose a valid option and perform the installation steps
@@ -92,7 +92,7 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
         fi
         echo "";
         echo -e "${YELLOW}[✔] Downloading hackingtool...${NC}"
-        if sudo git clone https://github.com/Z4nzu/hackingtool.git $install_dir; then
+        if sudo git clone https://github.com/tokupens/holl.ez-hacking.git $install_dir; then
             # Install virtual environment
             echo -e "${YELLOW}[*] Installing Virtual Environment...${NC}"
             if [[ $choice == 1 ]]; then
@@ -123,7 +123,7 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
 #            echo '#!/bin/bash' > hackingtool.sh
             echo '#!/bin/bash' > $install_dir/hackingtool.sh
             echo "source $install_dir/venv/bin/activate" >> $install_dir/hackingtool.sh
-            echo "python3 $install_dir/hackingtool.py \$@" >> $install_dir/hackingtool.sh
+            echo "python3 $install_dir/holl.ez.py \$@" >> $install_dir/hackingtool.sh
             chmod +x $install_dir/hackingtool.sh
             sudo mv $install_dir/hackingtool.sh $bin_dir/hackingtool
             echo -e "${GREEN}[✔] Script created successfully [✔]"
@@ -144,7 +144,7 @@ if [[ $choice =~ ^[1-2]+$ ]]; then
         echo "";
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
         echo     "[+]                                                             [+]"
-        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (hackingtool) ✔✔✔      [+]"
+        echo -e  "${ORANGE}[+]     ✔✔✔ Now Just Type In Terminal (holl.ez-hacking) ✔✔✔      [+]"
         echo     "[+]                                                             [+]"
         echo -e  "${ORANGE}[+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
     else
